@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap");
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3rem;
+}
+
+
+
+
+
+
+/* Navigation styles*/
+    header {
+    margin: 0;
+    text-align: left;
+    }
+    #nav {
+        position: fixed;
+        background-color: rgb(80, 75, 75);
+        margin: 0;
+        width: 100%;
+    }
+    #nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    }
+    #nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    }
+    #nav a:hover {
+    color: #0b0ff7ee;
+    cursor: pointer;
+    }
+    .main-section {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+
+
+
+
+
+
+
+/* Music part styles*/
+    #music{
+      background-color: rgba(0,0,0,0.9);
+      margin-top: -40px;
+    }
+    #music h2{
+      font-size: 42px;
+      font-weight: normal;
+    }
+    #music h3 {
+      font-size: 32px;
+      font-weight: normal;
+    }
+    #music .para1{
+    font-size: 20px;
+    }
+    #music .musicbtn {
+    background: #ff0000;
+    border: none;
+    background-image: -webkit-linear-gradient(top, #ff0000, #f23838);
+    background-image: -moz-linear-gradient(top, #ff0000, #f23838);
+    background-image: -ms-linear-gradient(top, #ff0000, #f23838);
+    background-image: -o-linear-gradient(top, #ff0000, #f23838);
+    background-image: linear-gradient(to bottom, #ff0000, #f23838);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+    #music .musicbtn:hover {
+    background: #a32323;
+    background-image: -webkit-linear-gradient(top, #a32323, #fa5757);
+    background-image: -moz-linear-gradient(top, #a32323, #fa5757);
+    background-image: -ms-linear-gradient(top, #a32323, #fa5757);
+    background-image: -o-linear-gradient(top, #a32323, #fa5757);
+    background-image: linear-gradient(to bottom, #a32323, #fa5757);
+    text-decoration: none;
+     }
+
+
+
+
+
+
+
+  
+  /* video part styles*/
+  #video {
+      color: #000;
+  }
+  .video h3 {
+      font-size: 32px;
+      font-weight: normal;
+  }
+  .video p {
+      font-size: 20px;
+  }
+  #video .videobtn{
+        background: #1100ff;
+        background-image: -webkit-linear-gradient(top, #1100ff, #4256d6);
+        background-image: -moz-linear-gradient(top, #1100ff, #4256d6);
+        background-image: -ms-linear-gradient(top, #1100ff, #4256d6);
+        background-image: -o-linear-gradient(top, #1100ff, #4256d6);
+        background-image: linear-gradient(to bottom, #1100ff, #4256d6);
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border: none;
+        border-radius: 0px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 20px 15px 20px 15px;
+        text-decoration: none;
+        margin: auto;
+      }
+      
+     #video .videobtn:hover {
+        background: #4444b8;
+        background-image: -webkit-linear-gradient(top, #4444b8, #0f157d);
+        background-image: -moz-linear-gradient(top, #4444b8, #0f157d);
+        background-image: -ms-linear-gradient(top, #4444b8, #0f157d);
+        background-image: -o-linear-gradient(top, #4444b8, #0f157d);
+        background-image: linear-gradient(to bottom, #4444b8, #0f157d);
+        text-decoration: none;
+      }
+      .video img {
+        margin: auto;
+      }
+
+
+
+
+
+
+
+
+      /* overview styles*/
+      #overview {
+          min-height: 30vh;
+          background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      .overview{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+
+
+
+
+
+
+
+      /* gift-cards */
+      #gift-cards {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+          color: #000;
+          text-align: left;
+      }
+      img {
+          width: 100%
+      }
+      #gift-cards a{
+        color: #055cdf;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+
+
+
+      
+      
+      
+      /*footer part styles*/
+      footer{
+        background-color: rgba(0,0,0,0.9);
+      }
+    .footer-items{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px
+    }
+    .footer-items ul {
+        list-style: none;
+
+    }
+    .ul-title {
+        font-size: 20px;
+        margin: 0 0 1rem;
+        padding: 0 0 0.5rem;
+        border-bottom: 1px solid #444;
+    }
+    .footer-items li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .bg{
+        background-color: #333;
+        margin-bottom: 0;
+    }
+    .bg p {
+        padding: 20px;
+        margin: 0;
+    }
+    footer{
+        margin-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+    /*MEDIA QUERY*/
+    @media (max-width: 680px) {
+        #gift-cards {
+            grid-template-columns: 1fr;
+        }
+        .footer-items{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 450px){
+        
+    }
